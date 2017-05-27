@@ -12,6 +12,7 @@
 		FACA60841ED5E1180009AA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA60821ED5E1180009AA03 /* Main.storyboard */; };
 		FACA60861ED5E1180009AA03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FACA60851ED5E1180009AA03 /* Assets.xcassets */; };
 		FACA60891ED5E1180009AA03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA60871ED5E1180009AA03 /* LaunchScreen.storyboard */; };
+		FACA60921ED9C21D0009AA03 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FACA60911ED9C21D0009AA03 /* MapKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FACA60851ED5E1180009AA03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FACA60881ED5E1180009AA03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FACA608A1ED5E1180009AA03 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FACA60911ED9C21D0009AA03 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +31,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FACA60921ED9C21D0009AA03 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +43,7 @@
 			children = (
 				FACA607D1ED5E1180009AA03 /* ofoDemo */,
 				FACA607C1ED5E1180009AA03 /* Products */,
+				FACA60901ED9C21D0009AA03 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +66,14 @@
 				FACA608A1ED5E1180009AA03 /* Info.plist */,
 			);
 			path = ofoDemo;
+			sourceTree = "<group>";
+		};
+		FACA60901ED9C21D0009AA03 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FACA60911ED9C21D0009AA03 /* MapKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -98,6 +110,11 @@
 						CreatedOnToolsVersion = 8.3.2;
 						DevelopmentTeam = Y6SZS4JQ7Q;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -304,6 +321,7 @@
 				FACA608F1ED5E1180009AA03 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
