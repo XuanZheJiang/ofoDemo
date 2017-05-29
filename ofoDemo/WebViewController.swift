@@ -7,33 +7,24 @@
 //
 
 import UIKit
+import WebKit
 
 class WebViewController: UIViewController {
-    
-    @IBOutlet weak var webView: UIWebView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        
         self.title = "热门活动"
         
-        let url = NSURL(string: "")
+        let wkWebView = WKWebView(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.size.width, height: UIScreen.main.bounds.height))
+        
+        let url = URL(string: "http://m.ofo.so/active.html")!
+        let request = URLRequest(url: url)
+        
+        wkWebView.load(request)
+        
+        view.addSubview(wkWebView)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-    
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
 
 }
