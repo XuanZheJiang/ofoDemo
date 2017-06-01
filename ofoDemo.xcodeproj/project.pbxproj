@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		FA0AFCA91EDB2280006E2189 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA0AFCA81EDB2280006E2189 /* WebViewController.swift */; };
+		FA3FDBC21EE06DFD00BE3589 /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA3FDBC11EE06DFD00BE3589 /* MenuController.swift */; };
 		FACA607F1ED5E1180009AA03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA607E1ED5E1180009AA03 /* AppDelegate.swift */; };
 		FACA60811ED5E1180009AA03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FACA60801ED5E1180009AA03 /* ViewController.swift */; };
 		FACA60841ED5E1180009AA03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FACA60821ED5E1180009AA03 /* Main.storyboard */; };
@@ -18,6 +19,7 @@
 
 /* Begin PBXFileReference section */
 		FA0AFCA81EDB2280006E2189 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		FA3FDBC11EE06DFD00BE3589 /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		FACA607B1ED5E1180009AA03 /* ofoDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ofoDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FACA607E1ED5E1180009AA03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FACA60801ED5E1180009AA03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -63,6 +65,7 @@
 				FACA607E1ED5E1180009AA03 /* AppDelegate.swift */,
 				FACA60801ED5E1180009AA03 /* ViewController.swift */,
 				FA0AFCA81EDB2280006E2189 /* WebViewController.swift */,
+				FA3FDBC11EE06DFD00BE3589 /* MenuController.swift */,
 				FACA60821ED5E1180009AA03 /* Main.storyboard */,
 				FACA60851ED5E1180009AA03 /* Assets.xcassets */,
 				FACA60871ED5E1180009AA03 /* LaunchScreen.storyboard */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA3FDBC21EE06DFD00BE3589 /* MenuController.swift in Sources */,
 				FACA60811ED5E1180009AA03 /* ViewController.swift in Sources */,
 				FA0AFCA91EDB2280006E2189 /* WebViewController.swift in Sources */,
 				FACA607F1ED5E1180009AA03 /* AppDelegate.swift in Sources */,
